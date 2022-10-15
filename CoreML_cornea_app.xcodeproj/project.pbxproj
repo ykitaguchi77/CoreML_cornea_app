@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF85C8FC28FAF59D00554177 /* CoreML_cornea_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C8FB28FAF59D00554177 /* CoreML_cornea_appApp.swift */; };
+		BF85C8FE28FAF59D00554177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C8FD28FAF59D00554177 /* ContentView.swift */; };
+		BF85C90028FAF59F00554177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85C8FF28FAF59F00554177 /* Assets.xcassets */; };
+		BF85C90328FAF59F00554177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85C90228FAF59F00554177 /* Preview Assets.xcassets */; };
+		BF85C90C28FAF61300554177 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C90B28FAF61300554177 /* UIImage+Extension.swift */; };
+		BF85C90E28FAF68C00554177 /* ResultHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C90D28FAF68C00554177 /* ResultHolder.swift */; };
+		BF85C91028FAF6B600554177 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C90F28FAF6B600554177 /* ImagePicker.swift */; };
+		BF85C91228FAF6E400554177 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91128FAF6E400554177 /* UIImageExtension.swift */; };
+		BF85C91428FAF70100554177 /* CameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91328FAF70100554177 /* CameraPage.swift */; };
+		BF85C91628FAF76700554177 /* gravcont_MobileNet3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91528FAF76700554177 /* gravcont_MobileNet3.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF85C8F828FAF59D00554177 /* CoreML_cornea_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreML_cornea_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85C8FB28FAF59D00554177 /* CoreML_cornea_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_cornea_appApp.swift; sourceTree = "<group>"; };
+		BF85C8FD28FAF59D00554177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF85C8FF28FAF59F00554177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF85C90228FAF59F00554177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF85C90B28FAF61300554177 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BF85C90D28FAF68C00554177 /* ResultHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHolder.swift; sourceTree = "<group>"; };
+		BF85C90F28FAF6B600554177 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BF85C91128FAF6E400554177 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		BF85C91328FAF70100554177 /* CameraPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPage.swift; sourceTree = "<group>"; };
+		BF85C91528FAF76700554177 /* gravcont_MobileNet3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = gravcont_MobileNet3.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF85C8F528FAF59D00554177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF85C8EF28FAF59D00554177 = {
+			isa = PBXGroup;
+			children = (
+				BF85C8FA28FAF59D00554177 /* CoreML_cornea_app */,
+				BF85C8F928FAF59D00554177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF85C8F928FAF59D00554177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF85C8F828FAF59D00554177 /* CoreML_cornea_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF85C8FA28FAF59D00554177 /* CoreML_cornea_app */ = {
+			isa = PBXGroup;
+			children = (
+				BF85C8FB28FAF59D00554177 /* CoreML_cornea_appApp.swift */,
+				BF85C90B28FAF61300554177 /* UIImage+Extension.swift */,
+				BF85C8FD28FAF59D00554177 /* ContentView.swift */,
+				BF85C8FF28FAF59F00554177 /* Assets.xcassets */,
+				BF85C90D28FAF68C00554177 /* ResultHolder.swift */,
+				BF85C90F28FAF6B600554177 /* ImagePicker.swift */,
+				BF85C91528FAF76700554177 /* gravcont_MobileNet3.mlmodel */,
+				BF85C91128FAF6E400554177 /* UIImageExtension.swift */,
+				BF85C91328FAF70100554177 /* CameraPage.swift */,
+				BF85C90128FAF59F00554177 /* Preview Content */,
+			);
+			path = CoreML_cornea_app;
+			sourceTree = "<group>";
+		};
+		BF85C90128FAF59F00554177 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF85C90228FAF59F00554177 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF85C8F728FAF59D00554177 /* CoreML_cornea_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85C90628FAF59F00554177 /* Build configuration list for PBXNativeTarget "CoreML_cornea_app" */;
+			buildPhases = (
+				BF85C8F428FAF59D00554177 /* Sources */,
+				BF85C8F528FAF59D00554177 /* Frameworks */,
+				BF85C8F628FAF59D00554177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreML_cornea_app;
+			productName = CoreML_cornea_app;
+			productReference = BF85C8F828FAF59D00554177 /* CoreML_cornea_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF85C8F028FAF59D00554177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BF85C8F728FAF59D00554177 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BF85C8F328FAF59D00554177 /* Build configuration list for PBXProject "CoreML_cornea_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF85C8EF28FAF59D00554177;
+			productRefGroup = BF85C8F928FAF59D00554177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF85C8F728FAF59D00554177 /* CoreML_cornea_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF85C8F628FAF59D00554177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85C90328FAF59F00554177 /* Preview Assets.xcassets in Resources */,
+				BF85C90028FAF59F00554177 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF85C8F428FAF59D00554177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85C91628FAF76700554177 /* gravcont_MobileNet3.mlmodel in Sources */,
+				BF85C90C28FAF61300554177 /* UIImage+Extension.swift in Sources */,
+				BF85C8FE28FAF59D00554177 /* ContentView.swift in Sources */,
+				BF85C91028FAF6B600554177 /* ImagePicker.swift in Sources */,
+				BF85C90E28FAF68C00554177 /* ResultHolder.swift in Sources */,
+				BF85C91428FAF70100554177 /* CameraPage.swift in Sources */,
+				BF85C8FC28FAF59D00554177 /* CoreML_cornea_appApp.swift in Sources */,
+				BF85C91228FAF6E400554177 /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF85C90428FAF59F00554177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF85C90528FAF59F00554177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF85C90728FAF59F00554177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreML_cornea_app/Preview Content\"";
+				DEVELOPMENT_TEAM = FKLM5SV532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yk-gankeisei.CoreML-cornea-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF85C90828FAF59F00554177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreML_cornea_app/Preview Content\"";
+				DEVELOPMENT_TEAM = FKLM5SV532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yk-gankeisei.CoreML-cornea-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF85C8F328FAF59D00554177 /* Build configuration list for PBXProject "CoreML_cornea_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85C90428FAF59F00554177 /* Debug */,
+				BF85C90528FAF59F00554177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85C90628FAF59F00554177 /* Build configuration list for PBXNativeTarget "CoreML_cornea_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85C90728FAF59F00554177 /* Debug */,
+				BF85C90828FAF59F00554177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF85C8F028FAF59D00554177 /* Project object */;
+}
