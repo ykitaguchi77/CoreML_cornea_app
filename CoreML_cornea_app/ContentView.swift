@@ -23,7 +23,9 @@ struct ContentView: View {
     
     //Define model
     //let model = MobileNetV2_pytorch()
+    //let model = gravcont_MobileNet3()
     let model = gravcont_MobileNet3()
+
     
     //Define labels
     @State private var classificationLabel: String = ""
@@ -153,9 +155,11 @@ struct ContentView: View {
               return
         }
         
+        //let output = try? model.prediction(input_1: buffer)
         let output = try? model.prediction(input_1: buffer)
         
         if let output = output {
+            //let results = output.var_879.sorted { $0.1 > $1.1 } //modelにより名前が変わるので注意
             let results = output.var_879.sorted { $0.1 > $1.1 } //modelにより名前が変わるので注意
             let topThree = results[0...1]
             let result = topThree.map { (key, value) in

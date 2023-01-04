@@ -17,6 +17,8 @@
 		BF85C91228FAF6E400554177 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91128FAF6E400554177 /* UIImageExtension.swift */; };
 		BF85C91428FAF70100554177 /* CameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91328FAF70100554177 /* CameraPage.swift */; };
 		BF85C91628FAF76700554177 /* gravcont_MobileNet3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91528FAF76700554177 /* gravcont_MobileNet3.mlmodel */; };
+		BF85C91828FC6ECD00554177 /* yolov5s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91728FC6ECD00554177 /* yolov5s.mlmodel */; };
+		BF85C91A28FC71E700554177 /* yolov5s-2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF85C91928FC71E700554177 /* yolov5s-2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		BF85C91128FAF6E400554177 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		BF85C91328FAF70100554177 /* CameraPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPage.swift; sourceTree = "<group>"; };
 		BF85C91528FAF76700554177 /* gravcont_MobileNet3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = gravcont_MobileNet3.mlmodel; sourceTree = "<group>"; };
+		BF85C91728FC6ECD00554177 /* yolov5s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolov5s.mlmodel; sourceTree = "<group>"; };
+		BF85C91928FC71E700554177 /* yolov5s-2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "yolov5s-2.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				BF85C91528FAF76700554177 /* gravcont_MobileNet3.mlmodel */,
 				BF85C91128FAF6E400554177 /* UIImageExtension.swift */,
 				BF85C91328FAF70100554177 /* CameraPage.swift */,
+				BF85C91728FC6ECD00554177 /* yolov5s.mlmodel */,
+				BF85C91928FC71E700554177 /* yolov5s-2.mlmodel */,
 				BF85C90128FAF59F00554177 /* Preview Content */,
 			);
 			path = CoreML_cornea_app;
@@ -159,9 +165,11 @@
 				BF85C90C28FAF61300554177 /* UIImage+Extension.swift in Sources */,
 				BF85C8FE28FAF59D00554177 /* ContentView.swift in Sources */,
 				BF85C91028FAF6B600554177 /* ImagePicker.swift in Sources */,
+				BF85C91A28FC71E700554177 /* yolov5s-2.mlmodel in Sources */,
 				BF85C90E28FAF68C00554177 /* ResultHolder.swift in Sources */,
 				BF85C91428FAF70100554177 /* CameraPage.swift in Sources */,
 				BF85C8FC28FAF59D00554177 /* CoreML_cornea_appApp.swift in Sources */,
+				BF85C91828FC6ECD00554177 /* yolov5s.mlmodel in Sources */,
 				BF85C91228FAF6E400554177 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +302,8 @@
 				DEVELOPMENT_TEAM = FKLM5SV532;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need cameras for decision";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need additions for decision";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +333,8 @@
 				DEVELOPMENT_TEAM = FKLM5SV532;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need cameras for decision";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need additions for decision";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
